@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:dimgray;
+}
+#titulo{
+    color:teal;
+    size: 0em;
+}
+p{
+    font-size: small;
+}
+p strong{
+    color: red;
+}
+.destacado{
+color:coral;
+}
+#subtitulo{
+    color:blue;
+}
+p a:link{
+    color: red;
+}
+p em{
+    color: blue;
+}
+table{
+align-items: center;
+}
