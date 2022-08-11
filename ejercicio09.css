@@ -1,9 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
-    background-color:dimgray;
+    background-color:white;
+
+    
 }
 #titulo{
     color:teal;
@@ -11,9 +10,11 @@ body{
 }
 p{
     font-size: small;
+    color:black;
 }
 p strong{
     color: red;
+    
 }
 .destacado{
 color:coral;
@@ -21,12 +22,47 @@ color:coral;
 #subtitulo{
     color:blue;
 }
-p a:link{
+p a{
     color: red;
 }
+
 p em{
     color: blue;
 }
-table{
+table, tr, th, td{
+    border:1px solid;
+    border-color: black;
+    border-collapse: collapse;
 
+}
+p .especial{
+    color: blueviolet;
+}
+.especial{
+    color: yellow;    
+    
+}
+tbody tfoot{
+    color: red;    
+    border-color: black;
+    
+}
+#adicional a{
+    color: green;
+    
+}
+#adicional p{
+    color: olive;
+}
+td strong{
+    color:yellow;
+}
+tr{
+    color:green;
+}
+tr th{
+    color:red;
+}
+#especial{
+    color:violet;
 }
